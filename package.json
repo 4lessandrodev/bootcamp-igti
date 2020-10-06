@@ -1,0 +1,52 @@
+{
+  "name": "filesystem",
+  "version": "1.0.0",
+  "description": "Manipulando arquivos json com filesystem ",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
+    "test:verbose": "jest --passWithNoTests --runInBand",
+    "test:live": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests --findRelatedTests",
+    "test:ci": "jest --passWithNoTests --silent --noStackTrace --runInBand --coverage",
+    "dev:server": "ts-node-dev --respawn --transpile-only src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALESSANDROLMENEZES/bootcamp-igti.git"
+  },
+  "keywords": [
+    "fs",
+    "FileSystem",
+    "Node",
+    "Terminal",
+    "Jest",
+    "Tdd",
+    "Bootcamp",
+    "Typescript"
+  ],
+  "author": "Alessandro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ALESSANDROLMENEZES/bootcamp-igti/issues"
+  },
+  "homepage": "https://github.com/ALESSANDROLMENEZES/bootcamp-igti#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.4",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "eslint": "^7.10.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "git-commit-msg-linter": "^3.0.0",
+    "husky": "^4.3.0",
+    "jest": "^26.5.0",
+    "lint-staged": "^10.4.0",
+    "ts-node-dev": "^1.0.0-pre.63",
+    "typescript": "^4.0.3"
+  }
+}
