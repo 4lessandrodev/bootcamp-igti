@@ -1,24 +1,19 @@
-import { IGenericRepository } from './IGenericRepository';
+import { IGenericRepository } from './interfaces/IGenericRepository';
 
 export class GenericRepository implements IGenericRepository {
- private readonly filename: string;
- constructor (filename: string) {
-   this.filename = filename;
- }
+  async create (filename:string): Promise<void> {
+    throw new Error('Method not implemented.');
+  }
 
- async create (): Promise<void> {
-   throw new Error('Method not implemented.');
- }
+  async delete (filename:string): Promise<void> {
+    throw new Error('Method not implemented.');
+  }
 
- async delete (): Promise<void> {
-   throw new Error('Method not implemented.');
- }
+  async validate (filename:string): Promise<void> {
+    throw new Error('Method not implemented.');
+  }
 
- async read (): Promise<void> {
-   throw new Error('Method not implemented.');
- }
-
- async validate (): Promise<void> {
-   throw new Error('Method not implemented.');
- }
+  async write (filename:string, data:any): Promise<void> {
+    throw new Error('Method not implemented.');
+  }
 }
