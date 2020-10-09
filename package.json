@@ -4,6 +4,7 @@
   "description": "Manipulando arquivos json com filesystem ",
   "main": "app.js",
   "scripts": {
+    "start":"ts-node-dev ./src/view/index.ts",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:live": "jest --passWithNoTests --watch",
