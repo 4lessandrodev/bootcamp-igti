@@ -4,7 +4,7 @@ Projeto pratico II
 
 ##### Como utilizar este projeto
 
-- `$ git clone`
+- `$ git clone https://github.com/ALESSANDROLMENEZES/bootcamp-igti.git`
 
 - `$ npm install`
 
