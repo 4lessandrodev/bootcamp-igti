@@ -25,4 +25,6 @@ As opções são de 0 a 8
 - 6: ENCONTRAR CIDADE COM MENOR NOME;
 - 7: ENCONTRAR CIDADE DE UM ESTADO;
 - 8: CRIAR UM JSON PARA CADA ESTADO;
-- 0: SAI;
+- 0: SAIR;
+
+[![terminal](./demo.jpg "terminal")](./demo.jpg "terminal")

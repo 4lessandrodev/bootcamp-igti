@@ -4,7 +4,7 @@
   "description": "Manipulando arquivos json com filesystem ",
   "main": "app.js",
   "scripts": {
-    "start":"ts-node-dev ./src/view/index.ts",
+    "start": "ts-node-dev ./src/view/index.ts",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:live": "jest --passWithNoTests --watch",
@@ -33,16 +33,19 @@
   },
   "homepage": "https://github.com/ALESSANDROLMENEZES/bootcamp-igti#readme",
   "devDependencies": {
+    "@types/colors": "^1.2.1",
     "@types/jest": "^26.0.14",
     "@types/node": "^14.11.4",
     "@typescript-eslint/eslint-plugin": "^4.4.0",
     "@typescript-eslint/parser": "^4.4.0",
+    "colors": "^1.4.0",
     "eslint": "^7.10.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "figlet": "^1.5.0",
     "git-commit-msg-linter": "^3.0.0",
     "husky": "^4.3.0",
     "jest": "^26.5.0",
@@ -50,5 +53,8 @@
     "ts-jest": "^26.4.1",
     "ts-node-dev": "^1.0.0-pre.63",
     "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@types/figlet": "^1.2.0"
   }
 }
