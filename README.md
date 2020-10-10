@@ -6,6 +6,8 @@ Projeto pratico II
 
 - `$ git clone https://github.com/ALESSANDROLMENEZES/bootcamp-igti.git`
 
+- `$ cd bootcamp-igti`
+
 - `$ npm install`
 
 - `$ npm run test`
